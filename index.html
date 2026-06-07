@@ -5,24 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — Nuts &amp; Bolts: Sorting Puzzle</title>
   <style>
-    :root { color-scheme: light dark; }
+    /* Fixed branded dark theme (matches the app). No light/dark switching. */
+    html { -webkit-text-size-adjust: 100%; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.65; max-width: 760px; margin: 0 auto; padding: 32px 20px 80px;
-      color: #1a1a1a; background: #ffffff;
+      color: #E6E9F5; background: #141A2E;
     }
-    @media (prefers-color-scheme: dark) {
-      body { color: #e6e6e6; background: #14182b; }
-      a { color: #8ab4ff; }
-      .card { background: #1d2238; border-color: #2c3354; }
+    h1 { font-size: 1.9rem; margin-bottom: 4px; color: #FFFFFF; }
+    h2 { font-size: 1.25rem; margin-top: 32px; color: #FFFFFF; }
+    p, li { color: #D6DBEC; }
+    .muted { color: #9AA3C0; font-size: 0.9rem; }
+    a { color: #8AB4FF; }
+    code {
+      background: rgba(255,255,255,.10); color: #FFE9A8;
+      padding: 1px 6px; border-radius: 5px;
     }
-    h1 { font-size: 1.8rem; margin-bottom: 4px; }
-    h2 { font-size: 1.25rem; margin-top: 32px; }
-    .muted { color: #888; font-size: 0.9rem; }
-    .card { background: #f6f7fb; border: 1px solid #e6e8f0; border-radius: 12px; padding: 16px 20px; margin: 18px 0; }
     ul { padding-left: 22px; }
-    a { color: #2e6bff; }
-    code { background: rgba(127,127,127,.15); padding: 1px 6px; border-radius: 5px; }
+    strong { color: #FFFFFF; }
+    /* Highlight card — dark surface with a gold hairline, always readable. */
+    .card {
+      background: #1E2541; border: 1px solid rgba(232,192,99,.45);
+      border-radius: 12px; padding: 16px 20px; margin: 18px 0; color: #E6E9F5;
+    }
+    .card strong { color: #FFE9A8; }
   </style>
 </head>
 <body>
